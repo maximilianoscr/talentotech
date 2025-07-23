@@ -22,7 +22,7 @@
     </nav>
   </header>
 
-  <main>
+  <main>  <!-- 
     <section id="productos" data-aos="fade-left">
       <h2>Productos Destacados</h2>
       <div class="productos-container" >
@@ -52,8 +52,20 @@
           <p>Año 90</p>
         </div>
       </div>
-    </section>
-
+    </section> -->
+              <!-- Elementos generados a partir del JSON -->
+              <section id="items" class="productos-container"  data-aos="fade-left">
+              </section>
+              <!-- Carrito -->
+              <aside class="col-sm-4">
+                  <h2>Carrito</h2>
+                  <ul id="carrito" class="list-group"></ul>
+                  <hr>
+                  <p class="text-right">Total $: <span id="total"></span>;</p>
+                  <button id="boton-pagar" class="btn btn-primary mt-3">Pagar</button>
+                  <button id="boton-vaciar" class="btn btn-danger mt-3">Vaciar</button>
+              </aside>
+    <script src="js/carritodinamico.js"></script>
     <section id="reseñas" data-aos="fade-up">
       <h2>Lo que opinan nuestros clientes</h2>
       <div class="reseñas-grid">
