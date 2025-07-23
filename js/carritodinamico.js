@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         const form = document.createElement('form');
-        form.action = 'https://formspree.io/f/xbljvgeb'; // Reemplaza esta dirección con tu código de Formspree
+        form.action = 'https://formspree.io/f/xovlebqy'; // Reemplaza esta dirección con tu código de Formspree
         form.method = 'POST';
     
         // Agregar productos al formulario
